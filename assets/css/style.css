@@ -1,0 +1,218 @@
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+
+
+body {
+
+  color: #777777;
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: url("../images/gravel.png");
+  line-height: 25px;
+  
+}
+
+#head {
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  }
+
+ header {
+   position: absolute;
+   overflow: auto;
+   
+ }
+
+ img {
+  float: left;
+  margin-right:35px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  
+}
+
+h1, h2, h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #4aaaa5;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 25px;
+  border-bottom: 3px solid #dddddd;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color:#cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #59dbd5;
+  height: 50px;
+}
+
+
+#main-container {
+  padding-top: 130px;
+  overflow: auto;
+  
+}
+
+.main-section {
+  width: 100%;
+  max-width: 960px;
+  height:800px;
+  padding: 25px;
+  margin: 0 0 25px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+
+/* Still need to adjust the text blocks and text in the images */
+.column {
+  float: left;
+  width: 35%;
+  padding: 20px;
+  margin-bottom: 30px;
+   
+}
+
+.text-block {
+    background-color: teal;
+    color: white;
+    padding-left: 20px;
+    padding-right: 130px;
+    position: relative;
+    width: 20px;
+    top: 100px;
+    text-align: center;
+        
+}
+
+
+#contact-form {
+  margin-bottom: 20px;
+  
+ }
+
+#name {
+  font-size: 15px;
+  margin-bottom: 10px;
+  height: 45px;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  
+  }
+
+#email {
+  font-size: 15px;
+  margin-bottom: 10px;
+  height: 45px;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#message {
+  font-size: 15px;
+  margin-bottom: 10px;
+  height: 300px;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+input[type=submit] {
+  font-size: 20px;
+  background: #4aaaa5;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: 0;
+  font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+  /* Small Devices, Tablets */
+  @media screen and (max-width : 768px) {
+    .container {
+      width: 100%;
+    }
+     .main-section {
+       width: 100%;
+       
+   }
+
+    #masthead {
+      /* width: 100%; */
+      /* position: fixed; */
+      
+    }
+
+   
+  }
+
+  /* Medium Devices, Desktops */
+  @media screen and (max-width : 980px) {
+    .container {
+      width: 100%;
+      }
+      .main-section {
+       width: 100%;
+      }
+    }
